@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Stas!");
+
+            Console.WriteLine("Hello, "+args[0] +"!");
+
         }
     }
 }
